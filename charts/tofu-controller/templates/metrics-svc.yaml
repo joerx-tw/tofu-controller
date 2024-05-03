@@ -15,4 +15,4 @@ spec:
     {{- include "tofu-controller.selectorLabels" . | nindent 4 }}
   sessionAffinity: None
   type: ClusterIP
-{{- end -}}  
+{{- end -}}
